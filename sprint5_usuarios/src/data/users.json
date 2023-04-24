@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "email": "agustingmaggi@gmail.com",
+    "password": "$2b$10$Jh2/LE6N9/ZUh4YKZLq8Cu.Ba4iDi7TwPg6D1Cck2A0iy4ypdCoBK",
+    "isAdmin": false,
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "email": "agustingarciamaggi1@gmail.com",
+    "password": "$2b$10$OHHYpyoSTu1pP4xCnvXmc.nImG50hMJeEpiS7694OI7zrtF.9gvVC",
+    "isAdmin": false,
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "email": "mgarciamaggi@gmail.com",
+    "password": "$2b$10$YAgdMWpNczFIU5AHvjVYl.NLAdrDo6gBNPIYQMRLaZnjSPSSGGFy6",
+    "isAdmin": false,
+    "isActive": true
+  }
+]

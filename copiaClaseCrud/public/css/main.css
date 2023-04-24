@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+    color:inherit
+  }
+  
+  .log-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    color:white
+  }
+  
+  .video {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+  }
+  
+  header {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  .frase-header {
+    margin: 15px;
+    text-align: center;
+    color:white
+  }
+  
+  .palabras-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none; /* esto es para sacarle el bullet point*/
+    align-items: flex-start;
+    padding: 15px;
+  }
+  
+  .palabras-header a {
+    background-color: purple;
+    color:white
+  }
+  
+  .fila-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: right;
+    margin:20px
+  }
+  
+  .input-barra {
+    border-radius: 8px;
+    height: 30px;
+  }
+  
+  
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:5%;
+  }
+  
+  article {
+    margin-bottom: 10px;
+    border: 7px solid rgba(100, 100, 100, 0.15);
+    max-width: 25%;
+  }
+  
+  article h4{
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .cajaArticulo01{
+    list-style: none;
+  }
+  
+  .description-proyect {
+    word-wrap: break-word;
+  }
+  
+  footer {
+    background-color: lightblue;
+    border: black;
+    border-width: 100px;
+    border-color: black;
+  }
+  
+  @media (max-width: 769px) {
+    
+    .palabras-header {
+      display:flex;
+      flex-direction: column;
+    }
+  
+    .section1{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    article{
+      max-width: 100%;
+    }
+  
+    .description-proyect {
+      word-wrap: normal;
+    }
+  
+  }

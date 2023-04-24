@@ -1,0 +1,29 @@
+[
+  {
+    "id": 5,
+    "name": "proyecto con imagen",
+    "price": null,
+    "offert": false,
+    "image": [
+      2
+    ]
+  },
+  {
+    "id": 6,
+    "name": "proyecto con imagen 2",
+    "price": null,
+    "offert": false,
+    "image": [
+      3
+    ]
+  },
+  {
+    "id": 7,
+    "name": "cuarto prod",
+    "price": null,
+    "offert": false,
+    "image": [
+      4
+    ]
+  }
+]

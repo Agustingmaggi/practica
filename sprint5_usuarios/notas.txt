@@ -1,0 +1,6 @@
+instalamos express, ejs, bcrypt (esta libreria se usa para encriptar la contraseña que usemos para login y para validarla o verificarla),
+cookie-parser sirve para setear una cookie, express-session (modulo que permite guardar datos mas grandes que una cookie en una sesion,
+aca podes guardar un carrito de compras por ejemplo). Tanto cookie como express sesion dependen del servidor, si el servidor se reinicia, se pierden los datos, o sea ojo con el nodemon que reinicia el servidor a cada cambio..Lo que hace el prof en la clase es sacar el json de "test" en package.json para que no se reinicie el servidor cuando se modifica el json
+Y el ultimo es express-validator (modulo externo que permite validar datos antes de llegar
+al controlador, esta entre una ruta y el controlador o sea es un middleware)
+

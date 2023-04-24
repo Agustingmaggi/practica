@@ -1,8 +1,0 @@
-// primero hcemos npm init para crear package.json 
-// luego instalamnos las dependencias. primero las del proyecto y luego las de desarrollo
-// las del proyecto son paquetes de npm que si o si son vitales para el proyecto 
-// que me van a ayudar para cuando escriba codigo, ejemplo express, se instala haciendo npm i express
-// una de desarrollo seria nodemon(que se instala poniendo npm i nodemon o npm i nodemon --dev--save, algo asi) 
- pero a esta ultima no la necesito aunque me ayuda para no prender y apagar el servidor todo el tiempo
-
- npm test es para que corra el nodemon.

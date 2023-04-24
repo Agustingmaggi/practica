@@ -1,0 +1,17 @@
+Pasos para laburar con sequelize
+
+
+1. crear archivo .sequelizerc y ponerle todo esto adentro:
+            'use strict'
+            const path = require('path') //como vamos a trabajar con rutas, usamos path
+            module.exports = {
+                "config": path.join(__dirname, "database/config", "config.js"), //es una ruta o lugar donde se va a crear un archivo que nos permita configurar el acceso a nuestra base de datos
+                "migrations-path": path.join(__dirname, "database/migrations"),
+                "seeders-path": path.join(__dirname, "database/seeders"),
+                "models-path": path.join(__dirname, "database/models") //los models interactuan con nuestra base de datos, es una extraccion de algunas tablas de la base de datos.
+            }
+2. npm init -y --> crea package.json 
+3. npm i sequelize mysql2
+4. npm i -D sequelize-cli --> para instalarlo como dependencia de desarrollo 
+5. definimos en el package json en scripts "init": "sequelize init" --> eso es para ejecutarlo despues. Asi como definiamos lo de nodemon, definimos esto
+6. npm run init --> justamente para ejecutar el comando que definimos en el punto 4. Aca se nos crea una carpeta "database" con las carpetas que definimos en el punto 1 o sea config, migrations, seeders y models

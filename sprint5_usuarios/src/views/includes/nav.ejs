@@ -1,0 +1,22 @@
+<nav>
+    <a href="/">Inicio</a>
+
+    <% if (!user) { %>
+        <a href="/users/login">Login</a>
+        <a href="/users/register">Register</a>
+        <% } else if (user && user.isAdmin) { %>
+         <a href="/users/">All Users</a>
+         <form action="/users/logout" method="post">
+            <button type="submit">
+                Logout
+            </button>
+        </form>
+        <% } else { %>
+            <a href="/users/profile">Profile</a>
+            <form action="/users/logout" method="post">
+                <button type="submit">
+                    Logout
+                </button>
+            </form>
+            <% } %>
+</nav>

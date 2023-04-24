@@ -1,0 +1,25 @@
+header {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+  }
+
+  .frase-header {
+    margin: 15px;
+    text-align: center;
+    color:white
+  }
+
+  .palabras-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none; /* esto es para sacarle el bullet point*/
+    align-items: flex-start;
+    padding: 15px;
+  }
+  
+  .palabras-header a {
+    background-color: purple;
+    color:white
+  }

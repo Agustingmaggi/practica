@@ -1,0 +1,16 @@
+<%- include('includes/head.ejs')  %>
+<body>
+    <%- include('includes/header') %>
+
+
+   <% projects.forEach(e => { %> <!-- se pone projects.forEach porque projects es la variable del controlador-->
+    <%= e.name %>
+    <%= e.price %>
+
+   
+   
+  <% }) %>
+
+   <%- include('includes/footer.ejs')  %>
+</body>
+</html>
